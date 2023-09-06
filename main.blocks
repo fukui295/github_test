@@ -1,7 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="T`_Pas,YWv`RvVc%ino/" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="z)IdRhF2vINX:km-23wI"><field name="i">IconNames.Heart</field><next><block type="device_pause" id="K38@K!5st[e~ShzSTr9!"><value name="pause"><shadow type="timePicker" id="r{dRXqM7p9b0[2RhLmba"><field name="ms">100</field></shadow></value><next><block type="device_clear_display" id="ZCC}2(+:{gcg?.1zMtQ;"><next><block type="device_pause" id="$[15W]X7CGffYmDtgUPx"><value name="pause"><shadow type="timePicker" id="%(xFpgSaTxG%X_{G6Nt["><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="nDq@-j*#H{0sb$k{BBKx" x="259" y="-10"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="Anw~{v55%^$~!Jx]C2#t"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="T`_Pas,YWv`RvVc%ino/" x="0" y="0"></block><block type="device_gesture_event" id="nDq@-j*#H{0sb$k{BBKx" x="259" y="-10"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="Anw~{v55%^$~!Jx]C2#t"><field name="LEDS">`
         . . . . . 
-        . # . . . 
+        . # . # . 
         . . # . . 
-        . . . # . 
-        . . . . .
-        `</field></block></statement></block></xml>
+        . . # # . 
+        . # # . .
+        `</field><next><block type="device_print_message" id=")}Sxv4DtD5@~Fw|AX;/q"><value name="text"><shadow type="text" id="7$%3!0?FfB!h;r-6o.WG"><field name="TEXT">Hello!</field></shadow></value></block></next></block></statement></block><block type="basic_show_icon" id="z)IdRhF2vINX:km-23wI" disabled="true" x="15" y="301"><field name="i">IconNames.Heart</field><next><block type="device_pause" id="K38@K!5st[e~ShzSTr9!" disabled="true"><value name="pause"><shadow type="timePicker" id="r{dRXqM7p9b0[2RhLmba" disabled="true"><field name="ms">100</field></shadow></value><next><block type="device_clear_display" id="ZCC}2(+:{gcg?.1zMtQ;" disabled="true"><next><block type="device_pause" id="$[15W]X7CGffYmDtgUPx" disabled="true"><value name="pause"><shadow type="timePicker" id="%(xFpgSaTxG%X_{G6Nt[" disabled="true"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></xml>
